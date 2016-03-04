@@ -44,3 +44,7 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 3.0'
   gem 'test_after_commit'
 end
+
+group :test do
+  gem 'capybara', '~> 2.4'
+end
