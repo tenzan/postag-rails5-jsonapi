@@ -21,7 +21,7 @@ gem 'redis', '~> 3.0'
 # gem 'rack-cors'
 
 gem 'bcrypt', '~> 3.1.7'
-gem 'jsonapi-resources', '>= 0.6.0'
+gem 'jsonapi-resources', :github => 'cerebris/jsonapi-resources', :branch => 'rails5'
 gem 'apitome'
 
 group :development, :test do
@@ -42,7 +42,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec_api_documentation'
   gem 'shoulda-matchers', '~> 3.0'
-  gem 'test_after_commit'
 end
 
 group :test do
